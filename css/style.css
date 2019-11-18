@@ -64,6 +64,8 @@ h3 {
 #patisserie{
   height: 450px;
   margin-top: 30px;
+  float: left;
+  padding-left: 40px;
 
 }
 
