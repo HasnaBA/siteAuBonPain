@@ -1,0 +1,38 @@
+
+header {
+  height:70px;
+ background-color:#fff8b2;
+ color:#19496f;
+}
+ #logo img { 
+  height: 300px ;
+  border-radius: 100%;
+  margin-top: 30px;
+  position: absolute;
+  left: 20px;
+  z-index:9px;
+
+
+}
+#vue img { 
+  height: 100%;
+  width: 800px;
+  
+}
+
+
+h1 {
+  font-family: 'Sacramento', cursive ;
+  font-size: 80px ;
+  color:#19496f!important;
+  display: flex;
+  align-items: right;
+  font-weight: bold!important;
+}
+
+
+
+
+
+
+
