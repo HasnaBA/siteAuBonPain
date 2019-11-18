@@ -1,19 +1,84 @@
 
-header {
-  height:70px;
- background-color:#fff8b2;
- color:#19496f;
+ {
+  background-image: url(https://i.pinimg.com/564x/59/f5/c2/59f5c227f5340517b2cb0c1e056f3f51.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
- #logo img { 
-  height: 300px ;
+
+
+header {
+  background-image: url(https://previews.123rf.com/images/beats1/beats11707/beats1170700068/82977864-diff%C3%A9rents-types-de-pain-et-de-petits-pains-%C3%A0-bord-d-en-haut-design-d-affiche-de-cuisine-ou-de-bou.jpg);
+  background-size: 100%;
+  min-height:60vh;
+  width: 100²;
+  background-color: #084d61 ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+#nav{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #3a3e427a;
+}
+#logo {
+  border-radius: 100%;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  font-family: 'Mrs Saint Delafield', cursive;
+
+}
+.container h1 {
+  color:white;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  
+}
+h2 {
+  color:#efe0b3;
+  font-size: 20px;
+  font-family: 'Playfair Display SC', serif;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.artdelapatisserie {
+  color:#4c4a4a;
+  font-size: 50px;
+  font-family: 'Concert One', cursive;
+}
+h3 {
+  color:#562629;
+  font-size: 15px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#patisserie{
+  height: 450px;
+  margin-top: 30px;
+
+}
+
+
+
+  /* #logo img {  */ */
+  /* height: 300px ;
   border-radius: 100%;
   margin-top: 30px;
   position: absolute;
   left: 20px;
-  z-index:9px;
+  z-index:9px; */ */
 
 
-}
+/* }
 #vue img { 
   height: 100%;
   width: 800px;
@@ -28,7 +93,7 @@ h1 {
   display: flex;
   align-items: right;
   font-weight: bold!important;
-}
+} */
 
 
 

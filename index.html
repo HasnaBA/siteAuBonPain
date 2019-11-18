@@ -11,7 +11,9 @@
 
     <link href="css/style.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arizonia|Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
     <title>Au Bon Pain</title>
 </head>
 
@@ -19,74 +21,84 @@
 
 <body>
 
+    <!--*************************Nav*********************************-->
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#">
+            <img id="logo" src="./img/logobonpain.jpg" width="30" height="30" class="d-inline-block align-top"
+                alt="logo">
+            Au Bon Pain
+        </a>
 
-    <nav class="navbar-home navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <h1>Bienvenue Au Bon Pain </h1>
 
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Qui sommes nous</a>
+                    <a class="nav-link" href="#">contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Sucré</a>
+                        <a class="dropdown-item" href="#">Salé</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
                 </li>
+
             </ul>
 
         </div>
     </nav>
+    <!--*************************Header*********************************-->
 
-    <header >
-        <div id="logo" class="row">
-            <img src="../img/logobonpain.jpg" alt="logo">
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1>Préparé avec Amour</h1>
+                <h2>Nous vous apportons de déliceuses préparation auquel vous ne saurez résister...</h2>
 
+            </div>
         </div>
 
     </header>
 
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-
-
-                    <img src="./img/vue.jpg">
-
-                </div>
-
-
-
-
-                <div id="class="col-md-4">
-                    <img src="./img/team.jpg">
-
+    <!--*************************section1*********************************-->
+    <section id="art_patisserie">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div  class="col-md-6">
+                        <h2><span class="artdelapatisserie">Art de la Pâtisserie</span> </h2>
+                        <h3>Nous créons de délicieux souvenirs..</h3>
+                        <p>Tous les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes à la fraise ou encore de délicieux napolitain. Notre but est de vous faire de vous faire rêver et voyager à chaque bouchée... </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img id="patisserie" src="./img/artpatisserie.jpg" alt="image_gateaucoeur">
+                    </div>
+                    
                 </div>
             </div>
-
-
         </div>
 
+        </div>
+    </section>
 
 
 
 
-
-
-
-
-
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
