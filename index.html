@@ -17,13 +17,13 @@
 
 
 
-<body>
+<body >
 
     <!--*************************Nav*********************************-->
-    <nav id="nav" class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#accueil">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#haut">
             <img id="logo" src="./img/logobonpain.jpg" width="30" height="30" class="d-inline-block align-top"
-                alt="logo" id="accueil">
+                alt="logo" >
             Au Bon Pain
         </a>
 
@@ -38,7 +38,7 @@
                     <a class="nav-link" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#apropos">A Propos</a>
+                    <a class="nav-link" href="#about">A Propos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">contact</a>
@@ -49,9 +49,10 @@
                         Nos spécialités
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Sucré</a>
-                        <a class="dropdown-item" href="#">Salé</a>
+                        <a class="dropdown-item" href="#sweet">Pâtisserie sucré</a>
+                        <a class="dropdown-item" href="#salted">Pâtisserie salé</a>
                         <div class="dropdown-divider"></div>
+                        
                     </div>
                 </li>
 
@@ -61,7 +62,7 @@
     </nav>
     <!--*************************Header*********************************-->
 
-    <header>
+    <header id="haut">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -75,11 +76,11 @@
 
     <div class="container-fluid">
         <div class="container">
-             <!--*************************section1*********************************-->
+            <!--*************************section1*********************************-->
             <section id="art_patisserie">
                 <div class="row align-items-center">
                     <div id="art" class="col-md-6">
-                        <h2><span class="artdelapatisserie">Art de la Pâtisserie Sucré</span> </h2>
+                        <h2><span id="sweet" class="artdelapatisserie">Art de la Pâtisserie Sucré</span> </h2>
                         <h3>Nous créons de délicieux souvenirs..</h3>
                         <p>Tous les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes
                             à la fraise ou encore de délicieux napolitain. Notre but est de vous faire de vous faire
@@ -103,7 +104,7 @@
             <section id="art_patisserie_sale">
                 <div class="row align-items-center">
                     <div id="art" class="col-md-6">
-                        <h2><span class="artdelapatisserie">Art de la Pâtisserie Salé</span> </h2>
+                        <h2><span id="salted" class="artdelapatisserie">Art de la Pâtisserie Salé</span> </h2>
                         <h3>Nous créons de délicieux souvenirs..</h3>
                         <p>Nous aimons préparer aussi de délicieuses pâtisseries salés, des verrines et délicieux
                             sandwich. Notre but est de vous faire de vous faire rêver et voyager à chaque bouchée...Tous
@@ -122,7 +123,7 @@
                 </div>
             </section>
 
-            <!--*************************section A_propos*********************************-->
+            <!--*************************section_A_propos*********************************-->
             <section id="about">
                 <div class="row align-items-center">
                     <div id="art" class="col-md-6">
@@ -145,17 +146,18 @@
 
                 </div>
             </section>
+            <!--*************************section_contact*********************************-->
 
-            <section id="section-5">
+            <section id="contact">
                 <div class="row">
                     <div class="col-md-6">
                         <h2><span class="artdelapatisserie">Nous ne sommes pas loin...</span> </h2>
                         <h3>Venez nous rendre visite...</h3>
                         <p>Nous travailloons dure tous les jours et nous avons le plaisir de vous recevoir tous les
                             jours sauf les le Lundi (eh oui il faut bien se reposer un peu). A partir de 7h, nos
-                            croissants et nos bon pains chauds seront vous rechauffer pendant l'hiver. 
+                            croissants et nos bon pains chauds seront vous rechauffer pendant l'hiver.
                         </p>
-                    </div>           
+                    </div>
                     <div class="col-md-6">
                         <img id="vue" class="w-100" src="./img/vue.jpg" alt="image_team">
                     </div>
@@ -179,7 +181,9 @@
                         </address>
                     </div>
                     <div class="col-md-6">
-                        <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.9324382135123!2d6.186461951438657!3d48.668534821907784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479498f36f859175%3A0xa36f1f2c124f822c!2sAU%20BON%20PAIN!5e0!3m2!1sfr!2sfr!4v1574172328306!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe width="100%"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.9324382135123!2d6.186461951438657!3d48.668534821907784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479498f36f859175%3A0xa36f1f2c124f822c!2sAU%20BON%20PAIN!5e0!3m2!1sfr!2sfr!4v1574172328306!5m2!1sfr!2sfr"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
                     </div>
                 </div>
@@ -188,10 +192,10 @@
     </div>
 
     <footer>
-            <div class="container">
+        <div class="container text-center">
             <p>Hasna 2019 ©Tous droits réservés</p>
-            </div>
-        
+        </div>
+
     </footer>
 
 
