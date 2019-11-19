@@ -8,12 +8,10 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link href="css/style.css" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Arizonia|Mrs+Saint+Delafield&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>Au Bon Pain</title>
 </head>
 
@@ -23,9 +21,9 @@
 
     <!--*************************Nav*********************************-->
     <nav id="nav" class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#accueil">
             <img id="logo" src="./img/logobonpain.jpg" width="30" height="30" class="d-inline-block align-top"
-                alt="logo">
+                alt="logo" id="accueil">
             Au Bon Pain
         </a>
 
@@ -37,15 +35,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#apropos">A Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Menu
+                        Nos spécialités
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Sucré</a>
@@ -63,36 +64,135 @@
     <header>
         <div class="container">
             <div class="row">
-                <h1>Préparé avec Amour</h1>
-                <h2>Nous vous apportons de déliceuses préparation auquel vous ne saurez résister...</h2>
-
+                <div class="col-md-12 text-center">
+                    <h1>Préparé avec Amour</h1>
+                    <p class="intro">Nous vous apportons de déliceuses préparation auquel vous ne saurez résister...</p>
+                </div>
             </div>
         </div>
 
     </header>
 
-    <!--*************************section1*********************************-->
-    <section id="art_patisserie">
-        <div class="container-fluid">
-            <div class="container">
+    <div class="container-fluid">
+        <div class="container">
+             <!--*************************section1*********************************-->
+            <section id="art_patisserie">
                 <div class="row align-items-center">
-                    <div  class="col-md-6">
-                        <h2><span class="artdelapatisserie">Art de la Pâtisserie</span> </h2>
+                    <div id="art" class="col-md-6">
+                        <h2><span class="artdelapatisserie">Art de la Pâtisserie Sucré</span> </h2>
                         <h3>Nous créons de délicieux souvenirs..</h3>
-                        <p>Tous les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes à la fraise ou encore de délicieux napolitain. Notre but est de vous faire de vous faire rêver et voyager à chaque bouchée... </p>
+                        <p>Tous les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes
+                            à la fraise ou encore de délicieux napolitain. Notre but est de vous faire de vous faire
+                            rêver et voyager à chaque bouchée...Tous les jours, nous préparons de délicieuses
+                            pâtisseries, des biscuits macarons, tartelettes à la fraise ou encore de délicieux
+                            napolitain. Notre but est de vous faire de vous faire rêver et voyager à chaque bouchée...
+                            Tous les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons,
+                            tartelettes à la fraise ou encore de délicieux napolitain. Notre but est de vous faire de
+                            vous faire rêver et voyager à chaque bouchée... Tous les jours, nous préparons de
+                            délicieuses pâtisseries, des biscuits macarons, tartelettes à la fraise ou encore de
+                            délicieux napolitain. Notre but est de vous faire de vous faire rêver et voyager à chaque
+                            bouchée... </p>
                     </div>
                     <div class="col-md-6">
-                        <img id="patisserie" src="./img/artpatisserie.jpg" alt="image_gateaucoeur">
+                        <img class="w-100" id="patisserie" src="./img/artpatisserie.jpg" alt="image_gateaucoeur">
                     </div>
-                    
                 </div>
+            </section>
+
+            <!--*************************section2*********************************-->
+            <section id="art_patisserie_sale">
+                <div class="row align-items-center">
+                    <div id="art" class="col-md-6">
+                        <h2><span class="artdelapatisserie">Art de la Pâtisserie Salé</span> </h2>
+                        <h3>Nous créons de délicieux souvenirs..</h3>
+                        <p>Nous aimons préparer aussi de délicieuses pâtisseries salés, des verrines et délicieux
+                            sandwich. Notre but est de vous faire de vous faire rêver et voyager à chaque bouchée...Tous
+                            les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes à
+                            la fraise ou encore de délicieux napolitain. Notre but est de vous faire de vous faire rêver
+                            et voyager à chaque bouchée... Tous les jours, nous préparons de délicieuses pâtisseries,
+                            des biscuits macarons, tartelettes à la fraise ou encore de délicieux napolitain. Notre but
+                            est de vous faire de vous faire rêver et voyager à chaque bouchée... Tous les jours, nous
+                            préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes à la fraise ou
+                            encore de délicieux napolitain. Notre but est de vous faire de vous faire rêver et voyager à
+                            chaque bouchée... </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img id="verrine" class="w-100" src="./img/cbon.jpg" alt="image_verrines">
+                    </div>
+                </div>
+            </section>
+
+            <!--*************************section A_propos*********************************-->
+            <section id="about">
+                <div class="row align-items-center">
+                    <div id="art" class="col-md-6">
+                        <h2><span href="apropos" class="artdelapatisserie">Un travail d'équipe...</span> </h2>
+                        <h3>Pour vous nous préparons le meilleur...</h3>
+                        <p>Nous aimons préparer aussi de délicieuses pâtisseries salés, des verrines et délicieux
+                            sandwich. Notre but est de vous faire de vous faire rêver et voyager à chaque bouchée...Tous
+                            les jours, nous préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes à
+                            la fraise ou encore de délicieux napolitain. Notre but est de vous faire de vous faire rêver
+                            et voyager à chaque bouchée... Tous les jours, nous préparons de délicieuses pâtisseries,
+                            des biscuits macarons, tartelettes à la fraise ou encore de délicieux napolitain. Notre but
+                            est de vous faire de vous faire rêver et voyager à chaque bouchée... Tous les jours, nous
+                            préparons de délicieuses pâtisseries, des biscuits macarons, tartelettes à la fraise ou
+                            encore de délicieux napolitain. Notre but est de vous faire de vous faire rêver et voyager à
+                            chaque bouchée... </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img id="team" class="w-100" src="./img/team.jpg" alt="image_team">
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="section-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2><span class="artdelapatisserie">Nous ne sommes pas loin...</span> </h2>
+                        <h3>Venez nous rendre visite...</h3>
+                        <p>Nous travailloons dure tous les jours et nous avons le plaisir de vous recevoir tous les
+                            jours sauf les le Lundi (eh oui il faut bien se reposer un peu). A partir de 7h, nos
+                            croissants et nos bon pains chauds seront vous rechauffer pendant l'hiver. 
+                        </p>
+                    </div>           
+                    <div class="col-md-6">
+                        <img id="vue" class="w-100" src="./img/vue.jpg" alt="image_team">
+                    </div>
+                </div>
+            </section>
+
+            <section id="adress">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Horaires</h3>
+                        <p>Ouverture tous les jours de 7h à 20h sauf Lundi</p>
+                        <address>
+                            <h4>Adresse</h4>
+                            <p>
+                                9 boulevard Louis Barthou
+                                <br>
+                                54500 Vandœuvre-lès-Nancy
+                            </p>
+                            <h4>Téléphone</h4>
+                            <a href="tel:+13115552368">0707070707</a>
+                        </address>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.9324382135123!2d6.186461951438657!3d48.668534821907784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479498f36f859175%3A0xa36f1f2c124f822c!2sAU%20BON%20PAIN!5e0!3m2!1sfr!2sfr!4v1574172328306!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+            <div class="container">
+            <p>Hasna 2019 ©Tous droits réservés</p>
             </div>
-        </div>
-
-        </div>
-    </section>
-
-
+        
+    </footer>
 
 
 

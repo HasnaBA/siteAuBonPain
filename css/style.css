@@ -1,21 +1,32 @@
-
- {
-  background-image: url(https://i.pinimg.com/564x/59/f5/c2/59f5c227f5340517b2cb0c1e056f3f51.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-
-header {
-  background-image: url(https://previews.123rf.com/images/beats1/beats11707/beats1170700068/82977864-diff%C3%A9rents-types-de-pain-et-de-petits-pains-%C3%A0-bord-d-en-haut-design-d-affiche-de-cuisine-ou-de-bou.jpg);
-  background-size: 100%;
-  min-height:60vh;
-  width: 100²;
-  background-color: #084d61 ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+h1 {
+  color:white;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
   
 }
+
+h2 {
+  color:#efe0b3;
+  font-size: 20px;
+  font-family: 'Playfair Display SC', serif;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
 #nav{
   overflow: hidden;
   position: fixed;
@@ -32,28 +43,29 @@ nav .navbar-brand {
   font-family: 'Mrs Saint Delafield', cursive;
 
 }
-.container h1 {
-  color:white;
-  font-family: 'Playfair Display SC', serif;
-  font-size: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
+
+header {
+  background-image: url(https://previews.123rf.com/images/beats1/beats11707/beats1170700068/82977864-diff%C3%A9rents-types-de-pain-et-de-petits-pains-%C3%A0-bord-d-en-haut-design-d-affiche-de-cuisine-ou-de-bou.jpg);
+  background-size: 100%;
+  min-height:60vh;
+  width: 100²;
+  background-color: #084d61 ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   
 }
-h2 {
+
+.intro {
   color:#efe0b3;
   font-size: 20px;
   font-family: 'Playfair Display SC', serif;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 
 .artdelapatisserie {
   color:#4c4a4a;
   font-size: 50px;
   font-family: 'Concert One', cursive;
+
 }
 h3 {
   color:#562629;
@@ -61,41 +73,25 @@ h3 {
   font-family: 'Playfair Display SC', serif;
 }
 
-#patisserie{
-  height: 450px;
+#verrine {
   margin-top: 30px;
-  float: left;
-  padding-left: 40px;
 
 }
 
+#vue {
+  margin-bottom: 40px;
+}
 
-
-  /* #logo img {  */ */
-  /* height: 300px ;
-  border-radius: 100%;
-  margin-top: 30px;
-  position: absolute;
-  left: 20px;
-  z-index:9px; */ */
-
-
-/* }
-#vue img { 
-  height: 100%;
-  width: 800px;
   
+  
+
+footer{
+  background-color: darkgrey;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom:10px
 }
 
-
-h1 {
-  font-family: 'Sacramento', cursive ;
-  font-size: 80px ;
-  color:#19496f!important;
-  display: flex;
-  align-items: right;
-  font-weight: bold!important;
-} */
 
 
 
